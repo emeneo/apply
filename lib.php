@@ -493,6 +493,7 @@ class enrol_apply_plugin extends enrol_plugin {
                     $content,
                     $manageurl,
                     $instance->courseid);
+                message_send($message);
             }
         }
 
